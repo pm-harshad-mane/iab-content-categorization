@@ -1,0 +1,56 @@
+{
+  "input_file": "02_fetched_url_content_files/adserver_1000_urls.jsonl",
+  "trained_model_path": "08_training_dataset_using_Gemma4/runs/embeddinggemma300m_high_medium_triplet_v2_bs8",
+  "taxonomy_source": "taxonomy/Content_Taxonomy_3.1_6.tsv",
+  "taxonomy_rows": 704,
+  "taxonomy_setup_ms": 7745.538,
+  "device": "cuda",
+  "top_k": 10,
+  "compare_top_k": 5,
+  "trained_output_file": "10_finetuned_embeddinggemma300m_evaluation/adserver_1000_urls__embeddinggemma300m_high_medium_triplet_v2_bs8__faiss.jsonl",
+  "existing_stage04_file": "04_fetched_url_content_embedding_categories_files/adserver_1000_urls__google_embeddinggemma-300m__faiss.jsonl",
+  "baseline_file": "07_fetched_url_content_categories_by_Gemma4/adserver_1000_urls__google_gemma-4-E4B-it.jsonl",
+  "baseline_top_field": "llm_top_categories",
+  "baseline_name": "gemma4",
+  "trained_vs_gemma4": {
+    "common_rows": 831,
+    "top1_match_rate": 0.39951865222623345,
+    "gpt_top1_in_pred_rate": 0.5872442839951865,
+    "pred_top1_in_gpt_rate": 0.4777376654632972,
+    "avg_overlap_count": 0.8495788206979543,
+    "avg_precision": 0.16991576413959153,
+    "avg_recall": 0.2898916967509017,
+    "avg_f1": 0.1924856264206447,
+    "ndcg_at_k": 0.3677336703477108,
+    "ndcg_score_100": 36.773367034771084,
+    "positional_score_100": 23.298168204305362,
+    "heuristic_score_100": 30.168405833912527,
+    "overlap_histogram": {
+      "0": 257,
+      "1": 452,
+      "2": 112,
+      "3": 10
+    }
+  },
+  "existing_vs_gemma4": {
+    "common_rows": 825,
+    "top1_match_rate": 0.23272727272727273,
+    "gpt_top1_in_pred_rate": 0.4109090909090909,
+    "pred_top1_in_gpt_rate": 0.47515151515151516,
+    "avg_overlap_count": 1.1272727272727272,
+    "avg_precision": 0.22545454545454482,
+    "avg_recall": 0.346989898989898,
+    "avg_f1": 0.24800000000000014,
+    "ndcg_at_k": 0.36238892336624096,
+    "ndcg_score_100": 36.2388923366241,
+    "positional_score_100": 24.086397306397267,
+    "heuristic_score_100": 31.59197513261419,
+    "overlap_histogram": {
+      "0": 216,
+      "1": 379,
+      "2": 152,
+      "3": 65,
+      "4": 13
+    }
+  }
+}

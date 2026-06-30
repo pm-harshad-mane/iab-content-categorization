@@ -1,0 +1,111 @@
+{
+  "taxonomy_tsv": "taxonomy/Content_Taxonomy_3.1_6.tsv",
+  "negative_count": 4,
+  "datasets": {
+    "all_usable": {
+      "train": {
+        "input_file": "08_training_dataset_using_Gemma4/all_usable_train.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/all_usable_train_pairs.jsonl",
+        "rows_written": 120492,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "low": 22962,
+          "medium": 90867,
+          "high": 6663
+        }
+      },
+      "valid": {
+        "input_file": "08_training_dataset_using_Gemma4/all_usable_valid.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/all_usable_valid_pairs.jsonl",
+        "rows_written": 6658,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "medium": 4974,
+          "low": 1308,
+          "high": 376
+        }
+      },
+      "test": {
+        "input_file": "08_training_dataset_using_Gemma4/all_usable_test.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/all_usable_test_pairs.jsonl",
+        "rows_written": 6592,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "medium": 4983,
+          "low": 1224,
+          "high": 385
+        }
+      }
+    },
+    "high_medium": {
+      "train": {
+        "input_file": "08_training_dataset_using_Gemma4/high_medium_train.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/high_medium_train_pairs.jsonl",
+        "rows_written": 97530,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "medium": 90867,
+          "high": 6663
+        }
+      },
+      "valid": {
+        "input_file": "08_training_dataset_using_Gemma4/high_medium_valid.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/high_medium_valid_pairs.jsonl",
+        "rows_written": 5350,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "medium": 4974,
+          "high": 376
+        }
+      },
+      "test": {
+        "input_file": "08_training_dataset_using_Gemma4/high_medium_test.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/high_medium_test_pairs.jsonl",
+        "rows_written": 5368,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "medium": 4983,
+          "high": 385
+        }
+      }
+    },
+    "high_only": {
+      "train": {
+        "input_file": "08_training_dataset_using_Gemma4/high_only_train.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/high_only_train_pairs.jsonl",
+        "rows_written": 6663,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "high": 6663
+        }
+      },
+      "valid": {
+        "input_file": "08_training_dataset_using_Gemma4/high_only_valid.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/high_only_valid_pairs.jsonl",
+        "rows_written": 376,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "high": 376
+        }
+      },
+      "test": {
+        "input_file": "08_training_dataset_using_Gemma4/high_only_test.jsonl",
+        "output_file": "08_training_dataset_using_Gemma4/high_only_test_pairs.jsonl",
+        "rows_written": 385,
+        "skipped_missing_query": 0,
+        "skipped_missing_positive": 0,
+        "confidence_counts": {
+          "high": 385
+        }
+      }
+    }
+  }
+}

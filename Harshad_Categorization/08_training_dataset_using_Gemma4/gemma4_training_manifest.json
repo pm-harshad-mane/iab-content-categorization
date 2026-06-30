@@ -1,0 +1,269 @@
+{
+  "model_name": "google/gemma-4-E4B-it",
+  "stage02_dir": "02_fetched_url_content_files",
+  "stage07_dir": "07_fetched_url_content_categories_by_Gemma4",
+  "output_jsonl": "08_training_dataset_using_Gemma4/gemma4_training_dataset.jsonl",
+  "total_training_rows": 133890,
+  "confidence_totals": {
+    "low": 25494,
+    "medium": 100824,
+    "high": 7424,
+    "discard": 148
+  },
+  "canonical_files": [
+    {
+      "stage02_file": "HarshardData_New_1M_01.jsonl",
+      "stage07_file": "HarshardData_New_1M_01__google_gemma-4-E4B-it__shard01of02.jsonl",
+      "shard_index": 0,
+      "shard_count": 2,
+      "gemma_rows_total": 9573,
+      "gemma_rows_ok": 8886,
+      "training_rows_written": 8886,
+      "confidence_counts": {
+        "low": 1716,
+        "medium": 6630,
+        "high": 535,
+        "discard": 5
+      },
+      "avg_score_gap_top1_top2": 0.164511
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_01.jsonl",
+      "stage07_file": "HarshardData_New_1M_01__google_gemma-4-E4B-it__shard02of02.jsonl",
+      "shard_index": 1,
+      "shard_count": 2,
+      "gemma_rows_total": 9355,
+      "gemma_rows_ok": 8680,
+      "training_rows_written": 8680,
+      "confidence_counts": {
+        "medium": 6558,
+        "low": 1588,
+        "high": 531,
+        "discard": 3
+      },
+      "avg_score_gap_top1_top2": 0.162455
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_02.jsonl",
+      "stage07_file": "HarshardData_New_1M_02__google_gemma-4-E4B-it__shard01of02.jsonl",
+      "shard_index": 0,
+      "shard_count": 2,
+      "gemma_rows_total": 9468,
+      "gemma_rows_ok": 8808,
+      "training_rows_written": 8808,
+      "confidence_counts": {
+        "low": 1593,
+        "medium": 6685,
+        "high": 522,
+        "discard": 8
+      },
+      "avg_score_gap_top1_top2": 0.159081
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_02.jsonl",
+      "stage07_file": "HarshardData_New_1M_02__google_gemma-4-E4B-it__shard02of02.jsonl",
+      "shard_index": 1,
+      "shard_count": 2,
+      "gemma_rows_total": 9460,
+      "gemma_rows_ok": 8811,
+      "training_rows_written": 8811,
+      "confidence_counts": {
+        "medium": 6669,
+        "low": 1645,
+        "high": 493,
+        "discard": 4
+      },
+      "avg_score_gap_top1_top2": 0.158702
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_03.jsonl",
+      "stage07_file": "HarshardData_New_1M_03__google_gemma-4-E4B-it__shard01of02.jsonl",
+      "shard_index": 0,
+      "shard_count": 2,
+      "gemma_rows_total": 9412,
+      "gemma_rows_ok": 8864,
+      "training_rows_written": 8864,
+      "confidence_counts": {
+        "low": 1733,
+        "medium": 6634,
+        "high": 494,
+        "discard": 3
+      },
+      "avg_score_gap_top1_top2": 0.166135
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_03.jsonl",
+      "stage07_file": "HarshardData_New_1M_03__google_gemma-4-E4B-it__shard02of02.jsonl",
+      "shard_index": 1,
+      "shard_count": 2,
+      "gemma_rows_total": 9516,
+      "gemma_rows_ok": 8993,
+      "training_rows_written": 8993,
+      "confidence_counts": {
+        "medium": 6778,
+        "low": 1769,
+        "high": 443,
+        "discard": 3
+      },
+      "avg_score_gap_top1_top2": 0.167311
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_04.jsonl",
+      "stage07_file": "HarshardData_New_1M_04__google_gemma-4-E4B-it__shard01of02.jsonl",
+      "shard_index": 0,
+      "shard_count": 2,
+      "gemma_rows_total": 9563,
+      "gemma_rows_ok": 8994,
+      "training_rows_written": 8994,
+      "confidence_counts": {
+        "medium": 6726,
+        "high": 501,
+        "low": 1766,
+        "discard": 1
+      },
+      "avg_score_gap_top1_top2": 0.16675
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_04.jsonl",
+      "stage07_file": "HarshardData_New_1M_04__google_gemma-4-E4B-it__shard02of02.jsonl",
+      "shard_index": 1,
+      "shard_count": 2,
+      "gemma_rows_total": 9365,
+      "gemma_rows_ok": 8799,
+      "training_rows_written": 8799,
+      "confidence_counts": {
+        "medium": 6691,
+        "high": 479,
+        "low": 1627,
+        "discard": 2
+      },
+      "avg_score_gap_top1_top2": 0.163932
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_05.jsonl",
+      "stage07_file": "HarshardData_New_1M_05__google_gemma-4-E4B-it__shard01of02.jsonl",
+      "shard_index": 0,
+      "shard_count": 2,
+      "gemma_rows_total": 9348,
+      "gemma_rows_ok": 8712,
+      "training_rows_written": 8712,
+      "confidence_counts": {
+        "low": 1724,
+        "medium": 6496,
+        "high": 489,
+        "discard": 3
+      },
+      "avg_score_gap_top1_top2": 0.168729
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_05.jsonl",
+      "stage07_file": "HarshardData_New_1M_05__google_gemma-4-E4B-it__shard02of02.jsonl",
+      "shard_index": 1,
+      "shard_count": 2,
+      "gemma_rows_total": 9580,
+      "gemma_rows_ok": 8912,
+      "training_rows_written": 8912,
+      "confidence_counts": {
+        "medium": 6693,
+        "low": 1711,
+        "high": 505,
+        "discard": 3
+      },
+      "avg_score_gap_top1_top2": 0.167663
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_06.jsonl",
+      "stage07_file": "HarshardData_New_1M_06__google_gemma-4-E4B-it__shard01of02.jsonl",
+      "shard_index": 0,
+      "shard_count": 2,
+      "gemma_rows_total": 9582,
+      "gemma_rows_ok": 8997,
+      "training_rows_written": 8997,
+      "confidence_counts": {
+        "low": 1794,
+        "medium": 6715,
+        "high": 486,
+        "discard": 2
+      },
+      "avg_score_gap_top1_top2": 0.171562
+    },
+    {
+      "stage02_file": "HarshardData_New_1M_06.jsonl",
+      "stage07_file": "HarshardData_New_1M_06__google_gemma-4-E4B-it__shard02of02.jsonl",
+      "shard_index": 1,
+      "shard_count": 2,
+      "gemma_rows_total": 9346,
+      "gemma_rows_ok": 8757,
+      "training_rows_written": 8757,
+      "confidence_counts": {
+        "medium": 6586,
+        "high": 471,
+        "low": 1696,
+        "discard": 4
+      },
+      "avg_score_gap_top1_top2": 0.172784
+    },
+    {
+      "stage02_file": "adserver_1000_urls.jsonl",
+      "stage07_file": "adserver_1000_urls__google_gemma-4-E4B-it.jsonl",
+      "shard_index": null,
+      "shard_count": 1,
+      "gemma_rows_total": 994,
+      "gemma_rows_ok": 840,
+      "training_rows_written": 840,
+      "confidence_counts": {
+        "medium": 548,
+        "low": 266,
+        "high": 26
+      },
+      "avg_score_gap_top1_top2": 0.281429
+    },
+    {
+      "stage02_file": "new_urls.jsonl",
+      "stage07_file": "new_urls__google_gemma-4-E4B-it.jsonl",
+      "shard_index": null,
+      "shard_count": 1,
+      "gemma_rows_total": 64,
+      "gemma_rows_ok": 63,
+      "training_rows_written": 63,
+      "confidence_counts": {
+        "low": 11,
+        "medium": 47,
+        "high": 5
+      },
+      "avg_score_gap_top1_top2": 0.114603
+    },
+    {
+      "stage02_file": "urls_may_14_26.jsonl",
+      "stage07_file": "urls_may_14_26__google_gemma-4-E4B-it__shard01of02.jsonl",
+      "shard_index": 0,
+      "shard_count": 2,
+      "gemma_rows_total": 14083,
+      "gemma_rows_ok": 13394,
+      "training_rows_written": 13394,
+      "confidence_counts": {
+        "medium": 10190,
+        "high": 711,
+        "low": 2442,
+        "discard": 51
+      },
+      "avg_score_gap_top1_top2": 0.171077
+    },
+    {
+      "stage02_file": "urls_may_14_26.jsonl",
+      "stage07_file": "urls_may_14_26__google_gemma-4-E4B-it__shard02of02.jsonl",
+      "shard_index": 1,
+      "shard_count": 2,
+      "gemma_rows_total": 14070,
+      "gemma_rows_ok": 13380,
+      "training_rows_written": 13380,
+      "confidence_counts": {
+        "low": 2413,
+        "discard": 56,
+        "medium": 10178,
+        "high": 733
+      },
+      "avg_score_gap_top1_top2": 0.172565
+    }
+  ]
+}

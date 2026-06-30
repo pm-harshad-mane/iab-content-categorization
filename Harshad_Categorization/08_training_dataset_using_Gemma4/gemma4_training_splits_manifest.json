@@ -1,0 +1,106 @@
+{
+  "input_jsonl": "08_training_dataset_using_Gemma4/gemma4_training_dataset.jsonl",
+  "total_input_rows": 133890,
+  "skipped_missing_hash": 0,
+  "skipped_discard": 148,
+  "split_rule": {
+    "train": "sha1(url_hash) % 100 < 90",
+    "valid": "90 <= sha1(url_hash) % 100 < 95",
+    "test": "sha1(url_hash) % 100 >= 95"
+  },
+  "datasets": {
+    "all_usable": {
+      "allowed_confidence_buckets": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "total_rows": 133742,
+      "files": {
+        "train": "08_training_dataset_using_Gemma4/all_usable_train.jsonl",
+        "valid": "08_training_dataset_using_Gemma4/all_usable_valid.jsonl",
+        "test": "08_training_dataset_using_Gemma4/all_usable_test.jsonl"
+      },
+      "counts": {
+        "train": 120492,
+        "valid": 6658,
+        "test": 6592
+      },
+      "confidence_counts": {
+        "train": {
+          "low": 22962,
+          "medium": 90867,
+          "high": 6663
+        },
+        "valid": {
+          "medium": 4974,
+          "low": 1308,
+          "high": 376
+        },
+        "test": {
+          "medium": 4983,
+          "low": 1224,
+          "high": 385
+        }
+      }
+    },
+    "high_medium": {
+      "allowed_confidence_buckets": [
+        "high",
+        "medium"
+      ],
+      "total_rows": 108248,
+      "files": {
+        "train": "08_training_dataset_using_Gemma4/high_medium_train.jsonl",
+        "valid": "08_training_dataset_using_Gemma4/high_medium_valid.jsonl",
+        "test": "08_training_dataset_using_Gemma4/high_medium_test.jsonl"
+      },
+      "counts": {
+        "train": 97530,
+        "valid": 5350,
+        "test": 5368
+      },
+      "confidence_counts": {
+        "train": {
+          "medium": 90867,
+          "high": 6663
+        },
+        "valid": {
+          "medium": 4974,
+          "high": 376
+        },
+        "test": {
+          "medium": 4983,
+          "high": 385
+        }
+      }
+    },
+    "high_only": {
+      "allowed_confidence_buckets": [
+        "high"
+      ],
+      "total_rows": 7424,
+      "files": {
+        "train": "08_training_dataset_using_Gemma4/high_only_train.jsonl",
+        "valid": "08_training_dataset_using_Gemma4/high_only_valid.jsonl",
+        "test": "08_training_dataset_using_Gemma4/high_only_test.jsonl"
+      },
+      "counts": {
+        "train": 6663,
+        "valid": 376,
+        "test": 385
+      },
+      "confidence_counts": {
+        "train": {
+          "high": 6663
+        },
+        "valid": {
+          "high": 376
+        },
+        "test": {
+          "high": 385
+        }
+      }
+    }
+  }
+}

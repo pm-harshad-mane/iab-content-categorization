@@ -1,0 +1,142 @@
+{
+  "source_file": "new_urls.txt",
+  "taxonomy_tsv": "taxonomy/Content_Taxonomy_3.1_2.tsv",
+  "url_count": 1,
+  "results": [
+    {
+      "page": {
+        "url": "https://www.newsbytesapp.com/news/science/you-can-soon-pin-up-to-20-chats-on-whatsapp/story",
+        "domain": "www.newsbytesapp.com",
+        "title": "WhatsApp will soon let you pin up to 20 chats",
+        "meta_description": "WhatsApp's latest beta update for Android, version 2.26.9.9, introduces a premium feature allowing users to pin up to 20 chats.",
+        "headings": [
+          "WhatsApp will soon let you pin up to 20 chats",
+          "Expanded pinning capability for premium users",
+          "Benefits of increased limit",
+          "Premium plan optional for users"
+        ],
+        "body_preview": "WhatsApp is working on a new premium feature that will allow users to pin up to 20 chats. The feature is currently under development and not yet available for beta testing. This comes after the recent update of WhatsApp beta for Android version 2.26.6.1, which introduced customization options for app icon and accent color as part of an upcoming premium plan. The latest update of WhatsApp beta for Android version 2.26.9.9 has revealed the development of a new feature that will let users pin up to"
+      },
+      "step_timings_ms": {
+        "fetch_url": 1537,
+        "clean_content": 0,
+        "faiss_categorization": 44,
+        "fuse": 0,
+        "rerank": 46,
+        "total": 1627,
+        "total_without_fetch_url": 90
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 628,
+          "path": "Technology & Computing > Computing > Internet > Social Networking",
+          "faiss_score": 0.567783,
+          "fused_score": 0.016393,
+          "rerank_score": 0.010208
+        },
+        {
+          "unique_id": 635,
+          "path": "Technology & Computing > Consumer Electronics > Smartphones",
+          "faiss_score": 0.567486,
+          "fused_score": 0.016129,
+          "rerank_score": 0.042328
+        },
+        {
+          "unique_id": 223,
+          "path": "Healthy Living",
+          "faiss_score": 0.566288,
+          "fused_score": 0.015873,
+          "rerank_score": 0.000188
+        },
+        {
+          "unique_id": 232,
+          "path": "Healthy Living > Wellness",
+          "faiss_score": 0.563092,
+          "fused_score": 0.015625,
+          "rerank_score": 0.000129
+        },
+        {
+          "unique_id": 170,
+          "path": "Personal Celebrations & Life Events > Birthday",
+          "faiss_score": 0.562523,
+          "fused_score": 0.015385,
+          "rerank_score": 0.00016
+        },
+        {
+          "unique_id": 188,
+          "path": "Family and Relationships > Dating",
+          "faiss_score": 0.558556,
+          "fused_score": 0.015152,
+          "rerank_score": 0.000682
+        },
+        {
+          "unique_id": 683,
+          "path": "Video Gaming > Mobile Games",
+          "faiss_score": 0.558434,
+          "fused_score": 0.014925,
+          "rerank_score": 0.000298
+        },
+        {
+          "unique_id": 425,
+          "path": "Pets > Dogs",
+          "faiss_score": 0.557683,
+          "fused_score": 0.014706,
+          "rerank_score": 4.3e-05
+        },
+        {
+          "unique_id": 224,
+          "path": "Healthy Living > Children's Health",
+          "faiss_score": 0.556468,
+          "fused_score": 0.014493,
+          "rerank_score": 2.4e-05
+        },
+        {
+          "unique_id": 200,
+          "path": "Family and Relationships > Single Life",
+          "faiss_score": 0.555966,
+          "fused_score": 0.014286,
+          "rerank_score": 0.00011
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 635,
+          "path": "Technology & Computing > Consumer Electronics > Smartphones",
+          "faiss_score": 0.567486,
+          "fused_score": 0.016129,
+          "rerank_score": 0.042328
+        },
+        {
+          "unique_id": 628,
+          "path": "Technology & Computing > Computing > Internet > Social Networking",
+          "faiss_score": 0.567783,
+          "fused_score": 0.016393,
+          "rerank_score": 0.010208
+        },
+        {
+          "unique_id": 188,
+          "path": "Family and Relationships > Dating",
+          "faiss_score": 0.558556,
+          "fused_score": 0.015152,
+          "rerank_score": 0.000682
+        },
+        {
+          "unique_id": 683,
+          "path": "Video Gaming > Mobile Games",
+          "faiss_score": 0.558434,
+          "fused_score": 0.014925,
+          "rerank_score": 0.000298
+        },
+        {
+          "unique_id": 223,
+          "path": "Healthy Living",
+          "faiss_score": 0.566288,
+          "fused_score": 0.015873,
+          "rerank_score": 0.000188
+        }
+      ],
+      "ok": true,
+      "error": null
+    }
+  ]
+}

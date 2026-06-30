@@ -1,0 +1,84 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.python-version
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs and transient runtime files
+*.log
+*.out
+*.pid
+nohup.out
+
+# Local agent/tool state
+.codex/
+.claude/
+.claude_insession_adserver/
+.claude_may14/
+
+# ML / experiment artifacts
+wandb/
+mlruns/
+runs/
+checkpoints/
+
+# Large model / index artifacts
+*.bin
+*.faiss
+*.h5
+*.index
+*.npy
+*.npz
+*.onnx
+*.parquet
+*.pickle
+*.pt
+*.pth
+*.safetensors
+
+# Project-generated datasets and outputs
+Harshad_Categorization/02_fetched_url_content_files/
+Harshad_Categorization/03_fetched_url_content_embedding_files/
+Harshad_Categorization/04_fetched_url_content_embedding_categories_files/
+Harshad_Categorization/05_fetched_url_content_embedding_categories_reranked_files/
+Harshad_Categorization/06_fetched_url_content_categories_by_GPT/
+Harshad_Categorization/07_fetched_url_content_categories_by_Gemma4/
+Harshad_Categorization/09_fetched_url_content_categories_by_Claude/
+Harshad_Categorization/ModelFiles/
+Harshad_Categorization/categorize_on_hosted_models_outputs/
+Harshad_Categorization/outputs/
+Harshad_Categorization/outputs_2/
+
+# Training runs inside mixed source directories
+Harshad_Categorization/08_training_dataset_using_Gemma4/runs/
+
+# Large training dataset artifacts (>50 MB at time of repo setup)
+Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_train_pairs.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/gemma4_training_dataset.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/high_medium_train_pairs.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_train.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/high_medium_train.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_valid_pairs.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/high_only_train_pairs.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_test_pairs.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/high_medium_test_pairs.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/high_medium_valid_pairs.jsonl
+Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_valid.jsonl

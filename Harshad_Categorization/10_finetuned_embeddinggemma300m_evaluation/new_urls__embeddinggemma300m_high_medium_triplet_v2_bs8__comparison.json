@@ -1,0 +1,53 @@
+{
+  "input_file": "02_fetched_url_content_files/new_urls.jsonl",
+  "trained_model_path": "08_training_dataset_using_Gemma4/runs/embeddinggemma300m_high_medium_triplet_v2_bs8",
+  "taxonomy_source": "taxonomy/Content_Taxonomy_3.1_6.tsv",
+  "taxonomy_rows": 704,
+  "taxonomy_setup_ms": 13175.806,
+  "top_k": 10,
+  "compare_top_k": 5,
+  "trained_output_file": "10_finetuned_embeddinggemma300m_evaluation/new_urls__embeddinggemma300m_high_medium_triplet_v2_bs8__faiss.jsonl",
+  "existing_stage04_file": "04_fetched_url_content_embedding_categories_files/new_urls__google_embeddinggemma-300m__faiss.jsonl",
+  "gpt_baseline_file": "06_fetched_url_content_categories_by_GPT/new_urls__gpt-5.4.jsonl",
+  "trained_vs_gpt": {
+    "common_rows": 63,
+    "top1_match_rate": 0.3492063492063492,
+    "gpt_top1_in_pred_rate": 0.47619047619047616,
+    "pred_top1_in_gpt_rate": 0.6825396825396826,
+    "avg_overlap_count": 1.2380952380952381,
+    "avg_precision": 0.24761904761904746,
+    "avg_recall": 0.3497354497354498,
+    "avg_f1": 0.284479717813051,
+    "ndcg_at_k": 0.41356467408498,
+    "ndcg_score_100": 41.35646740849799,
+    "positional_score_100": 22.70414462081128,
+    "heuristic_score_100": 35.61868644157145,
+    "overlap_histogram": {
+      "2": 12,
+      "1": 39,
+      "0": 7,
+      "3": 5
+    }
+  },
+  "existing_vs_gpt": {
+    "common_rows": 63,
+    "top1_match_rate": 0.36507936507936506,
+    "gpt_top1_in_pred_rate": 0.5555555555555556,
+    "pred_top1_in_gpt_rate": 0.5396825396825397,
+    "avg_overlap_count": 1.4285714285714286,
+    "avg_precision": 0.28571428571428564,
+    "avg_recall": 0.37751322751322747,
+    "avg_f1": 0.3191861929957167,
+    "ndcg_at_k": 0.43220857206357344,
+    "ndcg_score_100": 43.220857206357344,
+    "positional_score_100": 26.24514991181658,
+    "heuristic_score_100": 38.13261510486756,
+    "overlap_histogram": {
+      "1": 23,
+      "0": 12,
+      "2": 18,
+      "3": 9,
+      "4": 1
+    }
+  }
+}

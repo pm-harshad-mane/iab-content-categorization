@@ -1,0 +1,976 @@
+{
+  "source_file": "adserver_1000_urls.txt",
+  "taxonomy_tsv": "taxonomy/Content_Taxonomy_3.1_2.tsv",
+  "url_count": 10,
+  "results": [
+    {
+      "page": {
+        "url": "https://www.ratemyprofessors.com/professor/2121148",
+        "domain": "www.ratemyprofessors.com",
+        "title": "Nick Magliato at City College of New York | Rate My Professors",
+        "meta_description": "Nick Magliato is a professor in the English department at City College of New York - see what their students are saying about them or leave a rating yourself.",
+        "headings": [
+          "Nick Magliato",
+          "Similar Professors"
+        ],
+        "body_preview": "ENG21300 May 30th, 2019 Quality 5.0 Difficulty 3.0 ENG21300 May 30th, 2019 For Credit : Yes Attendance : Mandatory Would Take Again : Yes Textbook : No You will pass if you 1) participate in the discussion boards (every week) 2) complete essays 3) show up to class 4 essays, and 1 essay for Digital portfolio, Plenty of discussion boards Easy-going, and cares for his students. Often times, though, digresses immensely during the class lectures, so we don't actually talk about the actual themes/topi"
+      },
+      "step_timings_ms": {
+        "fetch_url": 555,
+        "clean_content": 76,
+        "faiss_categorization": 20,
+        "fuse": 0,
+        "rerank": 160,
+        "total": 811,
+        "total_without_fetch_url": 256
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 132,
+          "path": "Education",
+          "faiss_score": 0.590084,
+          "fused_score": 0.016393,
+          "rerank_score": 0.005361
+        },
+        {
+          "unique_id": 42,
+          "path": "Books and Literature",
+          "faiss_score": 0.579629,
+          "fused_score": 0.016129,
+          "rerank_score": 0.00592
+        },
+        {
+          "unique_id": 146,
+          "path": "Education > Homework and Study",
+          "faiss_score": 0.557939,
+          "fused_score": 0.015873,
+          "rerank_score": 0.012779
+        },
+        {
+          "unique_id": 138,
+          "path": "Education > College Education > College Planning",
+          "faiss_score": 0.554477,
+          "fused_score": 0.015625,
+          "rerank_score": 0.009357
+        },
+        {
+          "unique_id": 391,
+          "path": "Personal Finance",
+          "faiss_score": 0.553317,
+          "fused_score": 0.015385,
+          "rerank_score": 0.002247
+        },
+        {
+          "unique_id": 125,
+          "path": "Careers > Career Advice",
+          "faiss_score": 0.551913,
+          "fused_score": 0.015152,
+          "rerank_score": 0.006701
+        },
+        {
+          "unique_id": 137,
+          "path": "Education > College Education",
+          "faiss_score": 0.551318,
+          "fused_score": 0.014925,
+          "rerank_score": 0.017422
+        },
+        {
+          "unique_id": 490,
+          "path": "Sports > College Sports > College Baseball",
+          "faiss_score": 0.550698,
+          "fused_score": 0.014706,
+          "rerank_score": 0.000439
+        },
+        {
+          "unique_id": 123,
+          "path": "Careers",
+          "faiss_score": 0.54538,
+          "fused_score": 0.014493,
+          "rerank_score": 0.000958
+        },
+        {
+          "unique_id": 218,
+          "path": "Food & Drink > Dining Out",
+          "faiss_score": 0.544826,
+          "fused_score": 0.014286,
+          "rerank_score": 0.001199
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 137,
+          "path": "Education > College Education",
+          "faiss_score": 0.551318,
+          "fused_score": 0.014925,
+          "rerank_score": 0.017422
+        },
+        {
+          "unique_id": 146,
+          "path": "Education > Homework and Study",
+          "faiss_score": 0.557939,
+          "fused_score": 0.015873,
+          "rerank_score": 0.012779
+        },
+        {
+          "unique_id": 138,
+          "path": "Education > College Education > College Planning",
+          "faiss_score": 0.554477,
+          "fused_score": 0.015625,
+          "rerank_score": 0.009357
+        },
+        {
+          "unique_id": 125,
+          "path": "Careers > Career Advice",
+          "faiss_score": 0.551913,
+          "fused_score": 0.015152,
+          "rerank_score": 0.006701
+        },
+        {
+          "unique_id": 42,
+          "path": "Books and Literature",
+          "faiss_score": 0.579629,
+          "fused_score": 0.016129,
+          "rerank_score": 0.00592
+        }
+      ],
+      "ok": true,
+      "error": null
+    },
+    {
+      "page": {
+        "url": "https://weather.com/weather/tenday/l/c2e2e4c894f93a59d79d7d3dfd376af7466fcb57b82ec07f575df248f82e8124",
+        "domain": "weather.com",
+        "title": "10-Day Weather Forecast for Turrell, Arkansas 72384 - The Weather Channel | weather.com",
+        "meta_description": "Be prepared with the most accurate 10-day forecast for Turrell, Arkansas 72384 with highs, lows, chance of precipitation from The Weather Channel and Weather.com",
+        "headings": [
+          "Daily Forecast Turrell, Arkansas 72384 · as of 9:18 PM UTC",
+          "Trending Now",
+          "New March Heat Record: Where It Hit 110",
+          "Your Outlook For April-June: What's In Store For You",
+          "What To Look Out For With Your Dogs This Allergy Season",
+          "Historic Heat Wave: National Heat Record Broken, More Heat Ahead"
+        ],
+        "body_preview": "Meteorite hunters hopped on flights and drove hours across the country after seeing that stunning meteor streak across the sky over Ohio. They looked at radar locations to figure out where to start their hunt, and now they are showing off some of their finds. They’ll have to be confirmed by the American Meteor Society, but see why these hunters are so passionate about this pursuit."
+      },
+      "step_timings_ms": {
+        "fetch_url": 1180,
+        "clean_content": 155,
+        "faiss_categorization": 59,
+        "fuse": 0,
+        "rerank": 66,
+        "total": 1461,
+        "total_without_fetch_url": 281
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 390,
+          "path": "Science > Weather",
+          "faiss_score": 0.586452,
+          "fused_score": 0.016393,
+          "rerank_score": 0.028523
+        },
+        {
+          "unique_id": 467,
+          "path": "Science > Environment",
+          "faiss_score": 0.484898,
+          "fused_score": 0.016129,
+          "rerank_score": 0.011704
+        },
+        {
+          "unique_id": 470,
+          "path": "Science > Geology",
+          "faiss_score": 0.482159,
+          "fused_score": 0.015873,
+          "rerank_score": 0.005689
+        },
+        {
+          "unique_id": 577,
+          "path": "Style & Fashion > Fashion Trends",
+          "faiss_score": 0.476193,
+          "fused_score": 0.015625,
+          "rerank_score": 0.000342
+        },
+        {
+          "unique_id": 219,
+          "path": "Food & Drink > Food Allergies",
+          "faiss_score": 0.472174,
+          "fused_score": 0.015385,
+          "rerank_score": 0.000639
+        },
+        {
+          "unique_id": 19,
+          "path": "Automotive > Auto Type > Classic Cars",
+          "faiss_score": 0.469889,
+          "fused_score": 0.015152,
+          "rerank_score": 0.000514
+        },
+        {
+          "unique_id": 285,
+          "path": "Home & Garden > Outdoor Decorating",
+          "faiss_score": 0.468861,
+          "fused_score": 0.014925,
+          "rerank_score": 0.001277
+        },
+        {
+          "unique_id": 33,
+          "path": "Automotive > Auto Recalls",
+          "faiss_score": 0.468442,
+          "fused_score": 0.014706,
+          "rerank_score": 0.00056
+        },
+        {
+          "unique_id": 679,
+          "path": "Travel > Travel Type > Day Trips",
+          "faiss_score": 0.466756,
+          "fused_score": 0.014493,
+          "rerank_score": 0.001021
+        },
+        {
+          "unique_id": 677,
+          "path": "Travel > Travel Type > Camping",
+          "faiss_score": 0.466633,
+          "fused_score": 0.014286,
+          "rerank_score": 0.000631
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 390,
+          "path": "Science > Weather",
+          "faiss_score": 0.586452,
+          "fused_score": 0.016393,
+          "rerank_score": 0.028523
+        },
+        {
+          "unique_id": 467,
+          "path": "Science > Environment",
+          "faiss_score": 0.484898,
+          "fused_score": 0.016129,
+          "rerank_score": 0.011704
+        },
+        {
+          "unique_id": 470,
+          "path": "Science > Geology",
+          "faiss_score": 0.482159,
+          "fused_score": 0.015873,
+          "rerank_score": 0.005689
+        },
+        {
+          "unique_id": 285,
+          "path": "Home & Garden > Outdoor Decorating",
+          "faiss_score": 0.468861,
+          "fused_score": 0.014925,
+          "rerank_score": 0.001277
+        },
+        {
+          "unique_id": 679,
+          "path": "Travel > Travel Type > Day Trips",
+          "faiss_score": 0.466756,
+          "fused_score": 0.014493,
+          "rerank_score": 0.001021
+        }
+      ],
+      "ok": true,
+      "error": null
+    },
+    {
+      "ok": false,
+      "error": "403 Client Error: Forbidden for url: https://temp-mail.org/en/view/69bbd21c22f2860013f74bb6",
+      "page": {
+        "url": "https://temp-mail.org/en/view/69bbd21c22f2860013f74bb6"
+      },
+      "step_timings_ms": null,
+      "fused_candidates": [],
+      "final_ranked_categories": []
+    },
+    {
+      "page": {
+        "url": "https://www.meteored.mx/atlequizayan/por-hora",
+        "domain": "www.meteored.mx",
+        "title": "Clima en Atlequizayan por horas - Meteored México",
+        "meta_description": "Clima en Atlequizayan por hora con el estado del tiempo a 14 días. Los datos hora a hora sobre el tiempo, temperatura, velocidad del viento, la humedad, la cota de nieve, presión, etc. Atlequizayan pronóstico por horas.",
+        "headings": [
+          "Clima en Atlequizayan por hora",
+          "Gráfica del tiempo por hora en Atlequizayan",
+          "La previsión del tiempo por hora en Atlequizayan",
+          "Viernes, 20 de marzo",
+          "Sábado, 21 de marzo",
+          "Domingo, 22 de marzo"
+        ],
+        "body_preview": "Clima en Atlequizayan por hora Clima 1 - 7 días 8 - 14 días Por hora Gráfica del tiempo por hora en Atlequizayan SÍMBOLO TEMPERATURA VIENTO PRECIPITACIÓN La previsión del tiempo por hora en Atlequizayan Viernes, 20 de marzo Por la tarde Lluvia débil con cielo parcialmente nuboso Sale el sol a las 06:34 Se pone el sol a las 18:41 Primera luz a las 06:12 Última luz a las 19:03 Fase Lunar Creciente Iluminada 4% Salida Luna 07:30 Puesta Luna 20:33 01:00 15° Cubierto Sensación T. 15° Norte 2 - 10 km/"
+      },
+      "step_timings_ms": {
+        "fetch_url": 343,
+        "clean_content": 695,
+        "faiss_categorization": 10,
+        "fuse": 0,
+        "rerank": 238,
+        "total": 1287,
+        "total_without_fetch_url": 944
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 390,
+          "path": "Science > Weather",
+          "faiss_score": 0.606975,
+          "fused_score": 0.016393,
+          "rerank_score": 0.011293
+        },
+        {
+          "unique_id": 467,
+          "path": "Science > Environment",
+          "faiss_score": 0.53833,
+          "fused_score": 0.016129,
+          "rerank_score": 0.007688
+        },
+        {
+          "unique_id": 470,
+          "path": "Science > Geology",
+          "faiss_score": 0.512966,
+          "fused_score": 0.015873,
+          "rerank_score": 0.002293
+        },
+        {
+          "unique_id": 530,
+          "path": "Sports > Sailing",
+          "faiss_score": 0.505034,
+          "fused_score": 0.015625,
+          "rerank_score": 0.000293
+        },
+        {
+          "unique_id": 469,
+          "path": "Science > Geography",
+          "faiss_score": 0.499233,
+          "fused_score": 0.015385,
+          "rerank_score": 0.004862
+        },
+        {
+          "unique_id": 569,
+          "path": "Style & Fashion > Women's Fashion > Women's Clothing > Women's Formal Wear",
+          "faiss_score": 0.497873,
+          "fused_score": 0.015152,
+          "rerank_score": 0.000321
+        },
+        {
+          "unique_id": 292,
+          "path": "Medical Health > Diseases and Conditions > Endocrine and Metabolic Diseases > Menopause",
+          "faiss_score": 0.497726,
+          "fused_score": 0.014925,
+          "rerank_score": 0.001526
+        },
+        {
+          "unique_id": 170,
+          "path": "Personal Celebrations & Life Events > Birthday",
+          "faiss_score": 0.496953,
+          "fused_score": 0.014706,
+          "rerank_score": 0.000317
+        },
+        {
+          "unique_id": 464,
+          "path": "Science",
+          "faiss_score": 0.495324,
+          "fused_score": 0.014493,
+          "rerank_score": 0.000705
+        },
+        {
+          "unique_id": 545,
+          "path": "Sports > Baseball",
+          "faiss_score": 0.49437,
+          "fused_score": 0.014286,
+          "rerank_score": 0.000204
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 390,
+          "path": "Science > Weather",
+          "faiss_score": 0.606975,
+          "fused_score": 0.016393,
+          "rerank_score": 0.011293
+        },
+        {
+          "unique_id": 467,
+          "path": "Science > Environment",
+          "faiss_score": 0.53833,
+          "fused_score": 0.016129,
+          "rerank_score": 0.007688
+        },
+        {
+          "unique_id": 469,
+          "path": "Science > Geography",
+          "faiss_score": 0.499233,
+          "fused_score": 0.015385,
+          "rerank_score": 0.004862
+        },
+        {
+          "unique_id": 470,
+          "path": "Science > Geology",
+          "faiss_score": 0.512966,
+          "fused_score": 0.015873,
+          "rerank_score": 0.002293
+        },
+        {
+          "unique_id": 292,
+          "path": "Medical Health > Diseases and Conditions > Endocrine and Metabolic Diseases > Menopause",
+          "faiss_score": 0.497726,
+          "fused_score": 0.014925,
+          "rerank_score": 0.001526
+        }
+      ],
+      "ok": true,
+      "error": null
+    },
+    {
+      "ok": false,
+      "error": "403 Client Error: Forbidden for url: https://www.gumtree.com.au/s-home-garden/annandale-sydney/page-25/c18397l3003840r50",
+      "page": {
+        "url": "https://www.gumtree.com.au/s-home-garden/annandale-sydney/page-25/c18397l3003840r50"
+      },
+      "step_timings_ms": null,
+      "fused_candidates": [],
+      "final_ranked_categories": []
+    },
+    {
+      "ok": false,
+      "error": "403 Client Error: Forbidden for url: https://www.fastpeoplesearch.com/225-337-2447",
+      "page": {
+        "url": "https://www.fastpeoplesearch.com/225-337-2447"
+      },
+      "step_timings_ms": null,
+      "fused_candidates": [],
+      "final_ranked_categories": []
+    },
+    {
+      "page": {
+        "url": "https://www.islamicfinder.org/world/united-states/4754966/culpeper-prayer-times/",
+        "domain": "www.islamicfinder.org",
+        "title": "Culpeper (VA) Prayer Times (Namaz - Salah Time), Virginia, United States | IslamicFinder",
+        "meta_description": "Today Prayer Times in Culpeper(VA), Virginia United States are Fajar Prayer Time 06:04 AM, Dhuhur Prayer Time 01:20 PM, Asr Prayer Time 04:46 PM, Maghrib Prayer Time 07:24 PM & Isha Prayer Prayer Time 08:37 PM. Get a reliable source of Culpeper(VA) Athan (Azan) and Namaz times with weekly Salat timings and monthly Salah timetable of Culpeper(VA). مواقيت الصلاة",
+        "headings": [
+          "Prayer Times Today"
+        ],
+        "body_preview": "Prayer Times Today Prayer Times Today in Culpeper(VA), Virginia United States are Fajar Prayer Time 06:04 AM , Dhuhur Prayer Time 01:20 PM , Asr Prayer Time 04:46 PM , Maghrib Prayer Time 07:24 PM & Isha Prayer Time 08:37 PM . Get the most accurate Culpeper (VA)Azan and Namaz times with both; weekly Salat timings and monthly Salah timetable. Offering daily prayer (Salat) is one of the most vital and essential duties that have to be performed as well as fulfilled by all Muslims worldwide. All you"
+      },
+      "step_timings_ms": {
+        "fetch_url": 510,
+        "clean_content": 116,
+        "faiss_categorization": 9,
+        "fuse": 0,
+        "rerank": 108,
+        "total": 743,
+        "total_without_fetch_url": 233
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 461,
+          "path": "Religion & Spirituality > Islam",
+          "faiss_score": 0.552336,
+          "fused_score": 0.016393,
+          "rerank_score": 0.016488
+        },
+        {
+          "unique_id": 157,
+          "path": "Holidays > National & Civic Holidays",
+          "faiss_score": 0.520081,
+          "fused_score": 0.016129,
+          "rerank_score": 0.00011
+        },
+        {
+          "unique_id": 463,
+          "path": "Religion & Spirituality > Sikhism",
+          "faiss_score": 0.515025,
+          "fused_score": 0.015873,
+          "rerank_score": 0.000429
+        },
+        {
+          "unique_id": 455,
+          "path": "Religion & Spirituality > Spirituality",
+          "faiss_score": 0.514319,
+          "fused_score": 0.015625,
+          "rerank_score": 0.0008
+        },
+        {
+          "unique_id": 453,
+          "path": "Religion & Spirituality",
+          "faiss_score": 0.51031,
+          "fused_score": 0.015385,
+          "rerank_score": 0.005107
+        },
+        {
+          "unique_id": 456,
+          "path": "Religion & Spirituality > Astrology",
+          "faiss_score": 0.505744,
+          "fused_score": 0.015152,
+          "rerank_score": 0.001752
+        },
+        {
+          "unique_id": 457,
+          "path": "Religion & Spirituality > Atheism",
+          "faiss_score": 0.495123,
+          "fused_score": 0.014925,
+          "rerank_score": 0.000163
+        },
+        {
+          "unique_id": 459,
+          "path": "Religion & Spirituality > Christianity",
+          "faiss_score": 0.491695,
+          "fused_score": 0.014706,
+          "rerank_score": 0.00171
+        },
+        {
+          "unique_id": 460,
+          "path": "Religion & Spirituality > Hinduism",
+          "faiss_score": 0.480275,
+          "fused_score": 0.014493,
+          "rerank_score": 0.003806
+        },
+        {
+          "unique_id": 462,
+          "path": "Religion & Spirituality > Judaism",
+          "faiss_score": 0.478938,
+          "fused_score": 0.014286,
+          "rerank_score": 0.001894
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 461,
+          "path": "Religion & Spirituality > Islam",
+          "faiss_score": 0.552336,
+          "fused_score": 0.016393,
+          "rerank_score": 0.016488
+        },
+        {
+          "unique_id": 453,
+          "path": "Religion & Spirituality",
+          "faiss_score": 0.51031,
+          "fused_score": 0.015385,
+          "rerank_score": 0.005107
+        },
+        {
+          "unique_id": 460,
+          "path": "Religion & Spirituality > Hinduism",
+          "faiss_score": 0.480275,
+          "fused_score": 0.014493,
+          "rerank_score": 0.003806
+        },
+        {
+          "unique_id": 462,
+          "path": "Religion & Spirituality > Judaism",
+          "faiss_score": 0.478938,
+          "fused_score": 0.014286,
+          "rerank_score": 0.001894
+        },
+        {
+          "unique_id": 456,
+          "path": "Religion & Spirituality > Astrology",
+          "faiss_score": 0.505744,
+          "fused_score": 0.015152,
+          "rerank_score": 0.001752
+        }
+      ],
+      "ok": true,
+      "error": null
+    },
+    {
+      "page": {
+        "url": "https://weather.com/weather/tenday/l/91d3f11a83611b3459168cea7e13d2fd096286d777cf7054984573c49a495c55",
+        "domain": "weather.com",
+        "title": "10-Day Weather Forecast for Gordon Heights, Edgemoor, Delaware - The Weather Channel | weather.com",
+        "meta_description": "Be prepared with the most accurate 10-day forecast for Gordon Heights, Edgemoor, Delaware with highs, lows, chance of precipitation from The Weather Channel and Weather.com",
+        "headings": [
+          "Daily Forecast Gordon Heights, Edgemoor, Delaware · as of 9:18 PM UTC",
+          "Trending Now",
+          "New March Heat Record: Where It Hit 110",
+          "Your Outlook For April-June: What's In Store For You",
+          "What To Look Out For With Your Dogs This Allergy Season",
+          "Historic Heat Wave: National Heat Record Broken, More Heat Ahead"
+        ],
+        "body_preview": "Meteorite hunters hopped on flights and drove hours across the country after seeing that stunning meteor streak across the sky over Ohio. They looked at radar locations to figure out where to start their hunt, and now they are showing off some of their finds. They’ll have to be confirmed by the American Meteor Society, but see why these hunters are so passionate about this pursuit."
+      },
+      "step_timings_ms": {
+        "fetch_url": 1048,
+        "clean_content": 156,
+        "faiss_categorization": 8,
+        "fuse": 0,
+        "rerank": 65,
+        "total": 1276,
+        "total_without_fetch_url": 228
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 390,
+          "path": "Science > Weather",
+          "faiss_score": 0.574503,
+          "fused_score": 0.016393,
+          "rerank_score": 0.043649
+        },
+        {
+          "unique_id": 309,
+          "path": "Medical Health > Diseases and Conditions > Skin and Dermatology",
+          "faiss_score": 0.490396,
+          "fused_score": 0.016129,
+          "rerank_score": 0.000358
+        },
+        {
+          "unique_id": 447,
+          "path": "Real Estate > Houses",
+          "faiss_score": 0.488255,
+          "fused_score": 0.015873,
+          "rerank_score": 0.00177
+        },
+        {
+          "unique_id": 467,
+          "path": "Science > Environment",
+          "faiss_score": 0.486342,
+          "fused_score": 0.015625,
+          "rerank_score": 0.01425
+        },
+        {
+          "unique_id": 540,
+          "path": "Sports > Track and Field",
+          "faiss_score": 0.484314,
+          "fused_score": 0.015385,
+          "rerank_score": 0.000917
+        },
+        {
+          "unique_id": 470,
+          "path": "Science > Geology",
+          "faiss_score": 0.480847,
+          "fused_score": 0.015152,
+          "rerank_score": 0.006367
+        },
+        {
+          "unique_id": 284,
+          "path": "Home & Garden > Landscaping",
+          "faiss_score": 0.480266,
+          "fused_score": 0.014925,
+          "rerank_score": 0.002115
+        },
+        {
+          "unique_id": 285,
+          "path": "Home & Garden > Outdoor Decorating",
+          "faiss_score": 0.47692,
+          "fused_score": 0.014706,
+          "rerank_score": 0.000892
+        },
+        {
+          "unique_id": 441,
+          "path": "Real Estate",
+          "faiss_score": 0.475933,
+          "fused_score": 0.014493,
+          "rerank_score": 0.002708
+        },
+        {
+          "unique_id": 407,
+          "path": "Personal Finance > Personal Debt > Home Financing",
+          "faiss_score": 0.472813,
+          "fused_score": 0.014286,
+          "rerank_score": 0.00016
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 390,
+          "path": "Science > Weather",
+          "faiss_score": 0.574503,
+          "fused_score": 0.016393,
+          "rerank_score": 0.043649
+        },
+        {
+          "unique_id": 467,
+          "path": "Science > Environment",
+          "faiss_score": 0.486342,
+          "fused_score": 0.015625,
+          "rerank_score": 0.01425
+        },
+        {
+          "unique_id": 470,
+          "path": "Science > Geology",
+          "faiss_score": 0.480847,
+          "fused_score": 0.015152,
+          "rerank_score": 0.006367
+        },
+        {
+          "unique_id": 441,
+          "path": "Real Estate",
+          "faiss_score": 0.475933,
+          "fused_score": 0.014493,
+          "rerank_score": 0.002708
+        },
+        {
+          "unique_id": 284,
+          "path": "Home & Garden > Landscaping",
+          "faiss_score": 0.480266,
+          "fused_score": 0.014925,
+          "rerank_score": 0.002115
+        }
+      ],
+      "ok": true,
+      "error": null
+    },
+    {
+      "page": {
+        "url": "https://slickdeals.net/f/19312509-sns-8-06-30-oz-temptations-classic-crunchy-and-soft-cat-treats-savory-salmon-flavor-at-amazon",
+        "domain": "slickdeals.net",
+        "title": "30-oz Temptations Classic Crunchy & Soft Cat Treats (Savory Salmon Flavor) - 2026-03-16",
+        "meta_description": "Amazon has 30-oz Temptations Classic Crunchy and Soft Cat Treats (Savory Salmon Flavor) for $8.48 - 5% when you check out via Subscribe & Save = $8.06. Shipping is free with Prime or on $35+ order",
+        "headings": [],
+        "body_preview": ""
+      },
+      "step_timings_ms": {
+        "fetch_url": 1637,
+        "clean_content": 183,
+        "faiss_categorization": 7,
+        "fuse": 0,
+        "rerank": 34,
+        "total": 1861,
+        "total_without_fetch_url": 224
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 431,
+          "path": "Pets > Pet Supplies",
+          "faiss_score": 0.521544,
+          "fused_score": 0.016393,
+          "rerank_score": 0.023188
+        },
+        {
+          "unique_id": 424,
+          "path": "Pets > Cats",
+          "faiss_score": 0.513155,
+          "fused_score": 0.016129,
+          "rerank_score": 0.024544
+        },
+        {
+          "unique_id": 422,
+          "path": "Pets",
+          "faiss_score": 0.501832,
+          "fused_score": 0.015873,
+          "rerank_score": 0.052367
+        },
+        {
+          "unique_id": 222,
+          "path": "Food & Drink > Non-Alcoholic Beverages",
+          "faiss_score": 0.497799,
+          "fused_score": 0.015625,
+          "rerank_score": 0.001891
+        },
+        {
+          "unique_id": 219,
+          "path": "Food & Drink > Food Allergies",
+          "faiss_score": 0.495414,
+          "fused_score": 0.015385,
+          "rerank_score": 0.000391
+        },
+        {
+          "unique_id": 221,
+          "path": "Food & Drink > Healthy Cooking and Eating",
+          "faiss_score": 0.47277,
+          "fused_score": 0.015152,
+          "rerank_score": 0.000656
+        },
+        {
+          "unique_id": 212,
+          "path": "Food & Drink > Vegan Diets",
+          "faiss_score": 0.471308,
+          "fused_score": 0.014925,
+          "rerank_score": 0.000932
+        },
+        {
+          "unique_id": 216,
+          "path": "Food & Drink > Cooking",
+          "faiss_score": 0.461873,
+          "fused_score": 0.014706,
+          "rerank_score": 0.002361
+        },
+        {
+          "unique_id": 593,
+          "path": "Style & Fashion > Personal Care > Oral care",
+          "faiss_score": 0.461828,
+          "fused_score": 0.014493,
+          "rerank_score": 0.000527
+        },
+        {
+          "unique_id": 217,
+          "path": "Food & Drink > Desserts and Baking",
+          "faiss_score": 0.46107,
+          "fused_score": 0.014286,
+          "rerank_score": 0.001788
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 422,
+          "path": "Pets",
+          "faiss_score": 0.501832,
+          "fused_score": 0.015873,
+          "rerank_score": 0.052367
+        },
+        {
+          "unique_id": 424,
+          "path": "Pets > Cats",
+          "faiss_score": 0.513155,
+          "fused_score": 0.016129,
+          "rerank_score": 0.024544
+        },
+        {
+          "unique_id": 431,
+          "path": "Pets > Pet Supplies",
+          "faiss_score": 0.521544,
+          "fused_score": 0.016393,
+          "rerank_score": 0.023188
+        },
+        {
+          "unique_id": 216,
+          "path": "Food & Drink > Cooking",
+          "faiss_score": 0.461873,
+          "fused_score": 0.014706,
+          "rerank_score": 0.002361
+        },
+        {
+          "unique_id": 222,
+          "path": "Food & Drink > Non-Alcoholic Beverages",
+          "faiss_score": 0.497799,
+          "fused_score": 0.015625,
+          "rerank_score": 0.001891
+        }
+      ],
+      "ok": true,
+      "error": null
+    },
+    {
+      "page": {
+        "url": "https://stealherstyle.net/2021/12/14/madison-beer-red-mini-dress-black-sandals/",
+        "domain": "stealherstyle.net",
+        "title": "» Madison Beer: Red Mini Dress, Black Sandals",
+        "meta_description": "",
+        "headings": [
+          "Madison Beer: Red Mini Dress, Black Sandals",
+          "Madison Beer Outfits"
+        ],
+        "body_preview": "Madison Beer attended Sony Pictures’ “Spider-Man: No Way Home” Los Angeles PremierE wearing Nensi Dojaka Cutout-side Satin Mini Dress ($1,015.00), Kallati Ruby Diamond Earrings (Not available online) and Stuart Weitzman Backup Platform Sandals (Sold Out)."
+      },
+      "step_timings_ms": {
+        "fetch_url": 648,
+        "clean_content": 57,
+        "faiss_categorization": 15,
+        "fuse": 0,
+        "rerank": 44,
+        "total": 765,
+        "total_without_fetch_url": 117
+      },
+      "fused_candidates": [
+        {
+          "unique_id": 573,
+          "path": "Style & Fashion > Women's Fashion > Women's Shoes and Footwear",
+          "faiss_score": 0.530834,
+          "fused_score": 0.016393,
+          "rerank_score": 0.296339
+        },
+        {
+          "unique_id": 572,
+          "path": "Style & Fashion > Women's Fashion > Women's Clothing > Women's Sportswear",
+          "faiss_score": 0.516772,
+          "fused_score": 0.016129,
+          "rerank_score": 0.004129
+        },
+        {
+          "unique_id": 560,
+          "path": "Style & Fashion > Women's Fashion",
+          "faiss_score": 0.516427,
+          "fused_score": 0.015873,
+          "rerank_score": 0.024748
+        },
+        {
+          "unique_id": 569,
+          "path": "Style & Fashion > Women's Fashion > Women's Clothing > Women's Formal Wear",
+          "faiss_score": 0.512328,
+          "fused_score": 0.015625,
+          "rerank_score": 0.022584
+        },
+        {
+          "unique_id": 222,
+          "path": "Food & Drink > Non-Alcoholic Beverages",
+          "faiss_score": 0.511447,
+          "fused_score": 0.015385,
+          "rerank_score": 0.001076
+        },
+        {
+          "unique_id": 567,
+          "path": "Style & Fashion > Women's Fashion > Women's Clothing > Women's Business Wear",
+          "faiss_score": 0.505895,
+          "fused_score": 0.015152,
+          "rerank_score": 0.003386
+        },
+        {
+          "unique_id": 436,
+          "path": "Pop Culture > Celebrity Pregnancy",
+          "faiss_score": 0.505087,
+          "fused_score": 0.014925,
+          "rerank_score": 0.002177
+        },
+        {
+          "unique_id": 561,
+          "path": "Style & Fashion > Women's Fashion > Women's Accessories",
+          "faiss_score": 0.50427,
+          "fused_score": 0.014706,
+          "rerank_score": 0.011597
+        },
+        {
+          "unique_id": 566,
+          "path": "Style & Fashion > Women's Fashion > Women's Clothing",
+          "faiss_score": 0.500856,
+          "fused_score": 0.014493,
+          "rerank_score": 0.022068
+        },
+        {
+          "unique_id": 439,
+          "path": "Pop Culture > Celebrity Style",
+          "faiss_score": 0.498544,
+          "fused_score": 0.014286,
+          "rerank_score": 0.01348
+        }
+      ],
+      "final_ranked_categories": [
+        {
+          "unique_id": 573,
+          "path": "Style & Fashion > Women's Fashion > Women's Shoes and Footwear",
+          "faiss_score": 0.530834,
+          "fused_score": 0.016393,
+          "rerank_score": 0.296339
+        },
+        {
+          "unique_id": 560,
+          "path": "Style & Fashion > Women's Fashion",
+          "faiss_score": 0.516427,
+          "fused_score": 0.015873,
+          "rerank_score": 0.024748
+        },
+        {
+          "unique_id": 569,
+          "path": "Style & Fashion > Women's Fashion > Women's Clothing > Women's Formal Wear",
+          "faiss_score": 0.512328,
+          "fused_score": 0.015625,
+          "rerank_score": 0.022584
+        },
+        {
+          "unique_id": 566,
+          "path": "Style & Fashion > Women's Fashion > Women's Clothing",
+          "faiss_score": 0.500856,
+          "fused_score": 0.014493,
+          "rerank_score": 0.022068
+        },
+        {
+          "unique_id": 439,
+          "path": "Pop Culture > Celebrity Style",
+          "faiss_score": 0.498544,
+          "fused_score": 0.014286,
+          "rerank_score": 0.01348
+        }
+      ],
+      "ok": true,
+      "error": null
+    }
+  ]
+}

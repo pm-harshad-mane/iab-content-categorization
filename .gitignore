@@ -29,6 +29,7 @@ env/
 nohup.out
 
 # Local agent/tool state
+.codex
 .codex/
 .claude/
 .claude_insession_adserver/
@@ -66,9 +67,12 @@ Harshad_Categorization/ModelFiles/
 Harshad_Categorization/categorize_on_hosted_models_outputs/
 Harshad_Categorization/outputs/
 Harshad_Categorization/outputs_2/
+Harshad_Categorization/.codex
+Harshad_Categorization/01_plain_urls_files/*.csv
 
 # Training runs inside mixed source directories
 Harshad_Categorization/08_training_dataset_using_Gemma4/runs/
+Harshad_Categorization/08_training_dataset_using_Gemma4/*.jsonl
 
 # Large training dataset artifacts (>50 MB at time of repo setup)
 Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_train_pairs.jsonl
@@ -82,3 +86,10 @@ Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_test_pairs.js
 Harshad_Categorization/08_training_dataset_using_Gemma4/high_medium_test_pairs.jsonl
 Harshad_Categorization/08_training_dataset_using_Gemma4/high_medium_valid_pairs.jsonl
 Harshad_Categorization/08_training_dataset_using_Gemma4/all_usable_valid.jsonl
+
+# Generated evaluation and experiment outputs kept alongside source
+Harshad_Categorization/10_finetuned_embeddinggemma300m_evaluation/*.json
+Harshad_Categorization/10_finetuned_embeddinggemma300m_evaluation/*.jsonl
+Harshad_Categorization/adserver_old_approach/*.jsonl
+Harshad_Categorization/gpt_faiss_reranker_enriched/*.json
+Harshad_Categorization/tiered_approach/*.jsonl

@@ -56,7 +56,6 @@ checkpoints/
 *.safetensors
 
 # Project-generated datasets and outputs
-Harshad_Categorization/02_fetched_url_content_files/
 Harshad_Categorization/03_fetched_url_content_embedding_files/
 Harshad_Categorization/04_fetched_url_content_embedding_categories_files/
 Harshad_Categorization/05_fetched_url_content_embedding_categories_reranked_files/
@@ -69,6 +68,10 @@ Harshad_Categorization/outputs/
 Harshad_Categorization/outputs_2/
 Harshad_Categorization/.codex
 Harshad_Categorization/01_plain_urls_files/*.csv
+Harshad_Categorization/02_fetched_url_content_files/*.nohup.log
+Harshad_Categorization/02_fetched_url_content_files/Untitled
+Harshad_Categorization/02_fetched_url_content_files/HarshardData_New_1M_[0-9][0-9].jsonl
+Harshad_Categorization/02_fetched_url_content_files/urls_may_14_26.jsonl
 
 # Training runs inside mixed source directories
 Harshad_Categorization/08_training_dataset_using_Gemma4/runs/

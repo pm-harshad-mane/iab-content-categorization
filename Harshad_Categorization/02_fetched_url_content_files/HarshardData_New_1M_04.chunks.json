@@ -1,0 +1,17 @@
+{
+  "source_file": "Harshad_Categorization/02_fetched_url_content_files/HarshardData_New_1M_04.jsonl",
+  "max_bytes": 50000000,
+  "total_lines": 18928,
+  "chunks": [
+    {
+      "path": "Harshad_Categorization/02_fetched_url_content_files/HarshardData_New_1M_04.chunk-0001.jsonl",
+      "bytes": 49999920,
+      "lines": 11960
+    },
+    {
+      "path": "Harshad_Categorization/02_fetched_url_content_files/HarshardData_New_1M_04.chunk-0002.jsonl",
+      "bytes": 30000884,
+      "lines": 6968
+    }
+  ]
+}
